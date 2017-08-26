@@ -1,0 +1,66 @@
+dy {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+
+.slot {
+  background: #fff;
+  background-color: silver;
+  border: 3px solid gray;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+  float: left;
+}
+
+.slot:hover {
+  background-color: Gainsboro;
+}
+
+.luckyButton {
+  background: black;
+  border: 5px solid gray;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 34px;
+  text-align: center;
+  color: lightGray;
+  width: 120px;
+  clear: both;
+  float: left;
+}
+
+.luckyButton:active {
+  background: DimGray;
+  outline: none;
+  border-radius: 6px;
+  color: Azure;
+}
+
+.row {
+}
+
+.machine {
+}
+
+
+.kbd-navigation .slot:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-info {
+  margin-left: 0px;
+  text-align: letf;
+  font-size: 14px;
+}
